@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: rgb(255, 225, 127);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.main-body {
+
+    display: flexbox;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 70%;
+    height: 47%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.title {
+    width: 100%;
+    height: 10%;
+}
+
+.content {
+    width: 100%;
+    height: 80%;
+}
+
+.sub-body {
+
+    
+    display: flexbox;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+span {
+    color: crimson;
+}
+
